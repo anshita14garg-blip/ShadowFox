@@ -1,17 +1,23 @@
-✨ Personal Portfolio Website
+# ✨ Personal Portfolio Website
 
 A modern and responsive personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills, projects, achievements, and resume.
 
 ---
 
-🌐 About
+## 🌐 Live Demo
+
+🔗 https://anshita14garg-blip.github.io/ShadowFox/
+
+---
+
+## 🌐 About
 
 This portfolio represents my journey as a Computer Science student and aspiring developer.  
 It highlights my technical skills, featured projects, education, certifications, and contact information in a clean dark-themed interface.
 
 ---
 
-🚀 Features
+## 🚀 Features
 
 - Responsive modern UI
 - Dark-themed design
@@ -23,7 +29,7 @@ It highlights my technical skills, featured projects, education, certifications,
 
 ---
 
-🛠️ Built With
+## 🛠️ Built With
 
 - HTML5
 - CSS3
@@ -31,7 +37,7 @@ It highlights my technical skills, featured projects, education, certifications,
 
 ---
 
-📂 Sections Included
+## 📂 Sections Included
 
 - Home
 - Skills
@@ -41,25 +47,22 @@ It highlights my technical skills, featured projects, education, certifications,
 
 ---
 
-📌 Featured Projects
+## 📌 Featured Projects
 
-📄 ResumeForge
+### 📄 ResumeForge
 AI-powered resume builder with ATS-friendly templates.
 
-🩺 WellNest
+### 🩺 WellNest
 Smart student health companion web application.
 
-💰 Daily Expense Tracker
+### 💰 Daily Expense Tracker
 Python-based expense tracking tool for managing expenses efficiently.
 
 ---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-Anshita Garg
+**Anshita Garg**
 
 - GitHub: https://github.com/anshita14garg-blip
 - LinkedIn: https://linkedin.com/in/anshita-garg14
-
----
-
