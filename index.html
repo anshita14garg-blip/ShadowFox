@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anshita Garg — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#hero">AG</a>
+  <button class="hamburger" id="ham" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-blob"></div>
+  <div class="hero-blob hero-blob2"></div>
+  <div class="hero-content">
+    <span class="hero-tag">🎓 First-Year CS Student · Open to Internships</span>
+    <h1>Hi, I'm<br><em>Anshita Garg</em></h1>
+    <p>Motivated Computer Science student from Ghaziabad, India — passionate about building user-focused web applications and solving real-world problems with code.</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View My Work</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span>3+</span><p>Projects Built</p></div>
+      <div class="stat"><span>100+</span><p>Users Reached</p></div>
+      <div class="stat"><span>8.91</span><p>CGPA (Sem 1)</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label">What I Know</p>
+  <h2 class="section-title">Skills &amp; Technologies</h2>
+  <p class="section-sub">Languages, tools, and concepts I work with regularly.</p>
+
+  <div class="skills-grid">
+    <div class="skill-card fade-up">
+      <div class="skill-icon">💻</div>
+      <h3>C++</h3>
+      <p>Core programming, OOPs concepts, and problem-solving with data structures.</p>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-w="80"></div></div>
+    </div>
+    <div class="skill-card fade-up">
+      <div class="skill-icon">🐍</div>
+      <h3>Python</h3>
+      <p>Scripting, automation, and building back-end tools like the Daily Expense Tracker.</p>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-w="75"></div></div>
+    </div>
+    <div class="skill-card fade-up">
+      <div class="skill-icon">🌐</div>
+      <h3>HTML &amp; CSS</h3>
+      <p>Semantic markup and responsive styling for polished, accessible web interfaces.</p>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-w="85"></div></div>
+    </div>
+    <div class="skill-card fade-up">
+      <div class="skill-icon">⚡</div>
+      <h3>JavaScript</h3>
+      <p>Interactive UIs, DOM manipulation, Chart.js, and real-time data features.</p>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-w="78"></div></div>
+    </div>
+    <div class="skill-card fade-up">
+      <div class="skill-icon">🗂️</div>
+      <h3>DSA &amp; OOPs</h3>
+      <p>Fundamentals of data structures, algorithms, and object-oriented design.</p>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-w="70"></div></div>
+    </div>
+    <div class="skill-card fade-up">
+      <div class="skill-icon">🔧</div>
+      <h3>Git &amp; GitHub</h3>
+      <p>Version control, collaborative development, and cloud deployment workflows.</p>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-w="72"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-label">My Work</p>
+  <h2 class="section-title">Featured Projects</h2>
+  <p class="section-sub">Things I've designed, built, and shipped.</p>
+  <div class="projects-grid">
+
+    <div class="project-card fade-up">
+      <div class="project-thumb" style="background: linear-gradient(135deg,#e8f0fe,#c5d8fb);">📄</div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+        </div>
+        <h3>ResumeForge</h3>
+        <p>AI-powered Resume Builder generating ATS-friendly resumes with multiple templates, real-time updates, authentication, and cloud deployment. Used by 100+ users.</p>
+        <a class="project-link" href="https://github.com/anshita14garg-blip" target="_blank">View on GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card fade-up">
+      <div class="project-thumb" style="background: linear-gradient(135deg,#e6f9f0,#b8edda);">🏥</div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Chart.js</span><span class="tag">jsPDF</span>
+        </div>
+        <h3>WellNest — Smart Student Health Companion</h3>
+        <p>Responsive web app with health tracking, real-time data visualisation, and downloadable PDF reports. Deployed on cloud with 100+ active users.</p>
+        <a class="project-link" href="https://github.com/anshita14garg-blip/WellNest" target="_blank">View on GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card fade-up">
+      <div class="project-thumb" style="background: linear-gradient(135deg,#fff3e0,#ffe0b2);">💰</div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="tag">Python</span><span class="tag">In Progress</span>
+        </div>
+        <h3>Daily Expense Tracker</h3>
+        <p>Python-based tool to help users monitor and manage daily spending, with expense categorisation, data persistence, and analytical summaries for financial insights.</p>
+        <span class="project-link" style="cursor:default; opacity:.6;">🚧 Coming Soon</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume">
+  <p class="section-label">Background</p>
+  <h2 class="section-title">Resume</h2>
+  <p class="section-sub">My education and achievements at a glance.</p>
+  <div class="resume-grid fade-up">
+
+    <div class="resume-col">
+      <h3>🎓 Education</h3>
+      <div class="resume-item">
+        <p class="year">2025 – 2029</p>
+        <h4>B.Tech in Computer Science &amp; Engineering</h4>
+        <p class="org">Abes Engineering College, Ghaziabad, UP, India</p>
+        <p>CGPA: 8.91 | First Semester — building a strong foundation in CS fundamentals.</p>
+      </div>
+      <div class="resume-item">
+        <p class="year">2024 – 2025</p>
+        <h4>12th Standard (PCM)</h4>
+        <p class="org">Rainbow School, Saharanpur, UP, India</p>
+      </div>
+      <div class="resume-item">
+        <p class="year">2022 – 2023</p>
+        <h4>10th Standard</h4>
+        <p class="org">Rainbow School, Saharanpur, UP, India</p>
+      </div>
+    </div>
+
+    <div class="resume-col">
+      <h3>🏆 Certifications &amp; Achievements</h3>
+      <div class="resume-item">
+        <p class="year">2026</p>
+        <h4>HackerRank Problem Solving — Intermediate</h4>
+        <p class="org">HackerRank</p>
+      </div>
+      <div class="resume-item">
+        <p class="year">2026</p>
+        <h4>HackerRank Problem Solving — Basic</h4>
+        <p class="org">HackerRank</p>
+      </div>
+      <div class="resume-item">
+        <p class="year">2025</p>
+        <h4>Smart India Hackathon</h4>
+        <p class="org">MIC and AICTE</p>
+      </div>
+      <div class="resume-item">
+        <p class="year">2025</p>
+        <h4>Clash of Coders</h4>
+        <p class="org">Codechef</p>
+      </div>
+      <div class="resume-item">
+        <p class="year">2025</p>
+        <h4>Topic Lead</h4>
+        <p class="org">Smartly Creators Program</p>
+      </div>
+    </div>
+
+  </div>
+  <div style="text-align:center; margin-top:3rem;">
+    <a href="/mnt/user-data/uploads/Resume_AnshitaGarg.pdf" class="btn btn-primary" download>⬇ Download Resume</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-wrap fade-up">
+    <p class="section-label">Say Hello</p>
+    <h2 class="section-title">Let's Connect</h2>
+    <p class="section-sub" style="margin:0 auto;">I'm actively looking for internship opportunities. Feel free to reach out!</p>
+    <div class="contact-links">
+      <a class="contact-link" href="mailto:anshita14garg@gmail.com">✉️ anshita14garg@gmail.com</a>
+      <a class="contact-link" href="https://www.linkedin.com/in/anshita-garg14" target="_blank">💼 LinkedIn</a>
+      <a class="contact-link" href="https://github.com/anshita14garg-blip" target="_blank">🐙 GitHub</a>
+      <a class="contact-link" href="https://g.dev/anshita14garg" target="_blank">🌐 Google Dev</a>
+    </div>
+    <p class="contact-phone">📞 +91 74177 36237 &nbsp;|&nbsp; 📍 Ghaziabad, India</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Anshita Garg · Built with ☕ curiosity &amp; code</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
